@@ -1,3 +1,11 @@
+17-May-2016
+-----------
+ * Forked the clone of the repository from https://github.com/vineeshvs/myhdl.git
+
+
+--------------------------------------------------------------
+Given below are the changes made before forking the repository
+--------------------------------------------------------------
 Release 0.9.0 11-Jul-2015 
 -------------------------
 
