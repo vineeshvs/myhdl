@@ -158,7 +158,7 @@ class _ToVerilogConvertor(object):
                 _converting = 0
 
         if self.directory is None:
-            directory = 'output_files'
+            directory = ''
         else:
             directory = self.directory
 
