@@ -262,10 +262,12 @@ class _HierExtr(object):
         names[id(obj)] = name
         absnames[id(obj)] = name
         if not top_inst.level == 1:
+            print "[Debug]",top_inst,"level != 1"
             raise ExtractHierarchyError(_error.InconsistentToplevel % (top_inst.level, name))
         for inst in hierarchy:
             obj, subs = inst.obj, inst.subs
             if id(obj) not in names:
+                print "[Debug]",obj, "not in", names
                 raise ExtractHierarchyError(_error.InconsistentHierarchy)
             inst.name = names[id(obj)]
             tn = absnames[id(obj)]
