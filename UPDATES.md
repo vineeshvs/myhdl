@@ -2,8 +2,7 @@
 ------------
 * _analyze.py(140):
 	def _analyzeGens(top, absnames):
-* Ref: http://eli.thegreenplace.net/2009/11/28/python-internals-working-with-python-asts
-
+* Ref(Short intro to AST): http://eli.thegreenplace.net/2009/11/28/python-internals-working-with-python-asts
 
 01-Jun-2016:
 ------------
