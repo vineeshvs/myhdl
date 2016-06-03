@@ -1,3 +1,16 @@
+03-Jun-2016:
+------------
+* _analyze.py(140):
+	def _analyzeGens(top, absnames):
+* Ref: http://eli.thegreenplace.net/2009/11/28/python-internals-working-with-python-asts
+
+
+01-Jun-2016:
+------------
+* Understand python ast. Use the following references
+    * http://stackoverflow.com/questions/1515357/simple-example-of-how-to-use-ast-nodevisitor
+    * https://greentreesnakes.readthedocs.io/en/latest/
+
 17-May-2016
 -----------
  * Forked the clone of the repository from https://github.com/vineeshvs/myhdl.git
